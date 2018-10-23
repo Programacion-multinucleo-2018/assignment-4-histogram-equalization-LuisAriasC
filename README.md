@@ -26,6 +26,6 @@ Rubric:
 7. Calculation times and speedup obtained are incuded in the Readme.
 
 # Results
-Time in CPU: 347.845673
-Time in GPU: 10.304446
-Speedup: 33.756851
+1. Time in CPU: 355.356537 ms.
+2. Time in GPU: 0.047997 ms.
+3. Speedup: 7403.723633 times faster.
