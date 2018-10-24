@@ -189,8 +189,8 @@ __global__ void equalizer_kernel(unsigned char* input, unsigned char* output, in
 
   //Generate output image
   if((xIndex < width) && (yIndex < height)){
-    //int index = ;
-    output[tid] = hist[input[tid]];
+    int index = input[tid];
+    output[tid] = hist[index];
   }
 }
 
