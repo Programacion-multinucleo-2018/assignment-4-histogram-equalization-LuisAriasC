@@ -25,6 +25,8 @@ Rubric:
 6. Both images are displayed at the end.
 7. Calculation times and speedup obtained are incuded in the Readme.
 
+**Grade: 100**
+
 # Results
 1. Time in CPU: 355.356537 ms.
 2. Time in GPU: 0.047997 ms.
