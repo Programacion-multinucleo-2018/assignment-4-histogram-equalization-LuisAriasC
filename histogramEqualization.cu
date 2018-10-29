@@ -329,7 +329,11 @@ int main(int argc, char *argv[]){
 	//Allow the windows to resize
 	namedWindow("Input", cv::WINDOW_NORMAL);
 	namedWindow("Blac&WhiteInput", cv::WINDOW_NORMAL);
-	namedWindow("Output", cv::WINDOW_NORMAL);
+  namedWindow("Output", cv::WINDOW_NORMAL);
+  
+  cv::resizeWindow("Input", 800, 600);
+  cv::resizeWindow("Blac&WhiteInput", 800, 600);
+  cv::resizeWindow("Output", 800, 600);
 
 	//Show the input and output
 	imshow("Input", input);
